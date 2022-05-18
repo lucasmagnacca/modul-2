@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border: 2px solid gray;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.boton{
+    width: 25px;
+   border-radius: 5px;
+    align-self: flex-end;
+    margin: 5px;
+background-color: red;
+}
